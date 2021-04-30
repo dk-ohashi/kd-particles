@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+      function changeMapImage(imgPath) {
+        document.getElementById('ptclsImg').src = imgPath;
+      }
+    </script>
+
+    <script src="common/scripts/jquery.js"></script>
+    <script src="common/scripts/jquery.rwdImageMaps.js"></script>
+    <script>
+      $(document).ready(function(e) {
+        $('img[usemap]').rwdImageMaps();
+      });
+    </script>
+    <title>Knowledge Deliver</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="middle">
+        <div id="main">
+          <!-- <div class="movie"> -->
+            <video id="player" controls preload>
+              <source src="EP0_2_history.mp4">
+            </video>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+/* header */
+.header{
+  background-color: #7EDCF6;
+  padding: 1em 2em 1em;
+}
+
+/* 見出し */
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+  /* background-color: #C0FFBC; */
+}
+
+/* インデント */
+.indent1{
+  padding-left: 1em;
+}
+
+.claim{
+  padding: 1em;
+  font-weight: bold;
+}
+
+/* コンテンツの表示幅 */
+.content{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+img {
+  /* max-width: 100%; */
+  width: 90%;
+  max-width: 700px;
+  height: auto;
+}
+
+.miniimg{
+  max-height: 250px;
+  width: auto;
+}
+
+
+textarea {
+
+}
+
+li {
+  line-height: 2;
+}
+
+#container{
+  margin: 0 10% 0;
+  margin: auto;
+  padding: 1em;
+  max-width: 1000px;
+  position: relative;
+}
+
+.transfer{
+  text-align: center;
+  margin: 10px auto;
+}
+/* ボタン */
+
+/*まずはお決まりのボックスサイズ算出をborer-boxに */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+  /*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn--orange,
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+}
+.btn--orange:hover,
+a.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+
+.Imgcontent{
+  text-align: center;
+  margin: 5% auto;
+}
+
+/* 動画の埋め込み */
+
+#player {
+ /* position: absolute; */
+ padding: 5px 0px 5px;
+ width: 100%;
+ height: 100%;
+ background: #FFF;
+ z-index: 9999999999;
+}
+
+.movie{
+  padding: 2% 10% 2%;
+}
+
+/* box の囲い */
+.box{
+  max-width: 700px;
+  background-color: #EDE8DD;
+  padding: 5px 10px 5px;
+  padding-right: 1em;
+}
+
+/* details */
+/* details {
+  margin: 5% 0 5%;
+}% */
