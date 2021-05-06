@@ -72,12 +72,23 @@ li {
 }
 
 /* テーブル */
-table {
-    width: 100%;
-}
-table th {
-    white-space: nowrap;
-    width: 100px;
+.c-table {
+	width: 100%;
+	th,
+	td {
+		padding: 30px 20px;
+		border-bottom: 1px dashed $_col_light_black;
+		background-color: $_col_white;
+	}
+	th {
+        width: 1px;
+		white-space: nowrap;
+		font-weight: 700;
+		color: $_col_black;
+	}
+	td {
+		word-break: break-all;
+	}
 }
 
 /* ボタン */
