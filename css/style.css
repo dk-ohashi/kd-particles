@@ -166,10 +166,11 @@ a.btn--orange:hover {
 
 /* box の囲い */
 .box{
-  max-width: 700px;
+  max-width: 900px;
   background-color: #EDE8DD;
   padding: 5px 10px 5px;
   padding-right: 1em;
+  margin-left: 1em;
 }
 
 /* details */
