@@ -70,6 +70,13 @@ li {
   text-align: center;
   margin: 10px auto;
 }
+
+/* テーブル */
+table th {
+    white-space: nowrap;
+    width: 100%;
+}
+
 /* ボタン */
 
 /*まずはお決まりのボックスサイズ算出をborer-boxに */
