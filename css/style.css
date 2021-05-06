@@ -72,6 +72,9 @@ li {
 }
 
 /* テーブル */
+table {
+    width: 100%;
+}
 table th {
     white-space: nowrap;
     width: 100px;
