@@ -161,8 +161,11 @@ a.btn--orange:hover {
 }
 
 .movie{
-  max-width: 90%;
   padding: 2% 10% 2%;
+}
+
+.movie iframe {
+  max-width: 90%;
 }
 
 /* box の囲い */
