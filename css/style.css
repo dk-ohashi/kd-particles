@@ -175,4 +175,8 @@ a.btn--orange:hover {
 /* details */
 details summary{
   cursor: pointer;
-}%
+}
+
+details summary:hover{
+  color: blue;
+}
