@@ -178,5 +178,5 @@ details summary{
 }
 
 details summary:hover{
-  color: blue;
+  text-decoration: underline;
 }
