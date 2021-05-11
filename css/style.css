@@ -161,6 +161,7 @@ a.btn--orange:hover {
 }
 
 .movie{
+  max-width: 90%;
   padding: 2% 10% 2%;
 }
 
