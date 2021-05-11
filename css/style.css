@@ -173,6 +173,6 @@ a.btn--orange:hover {
 }
 
 /* details */
-details summary:hover {
-  color: #b1eeff;
+details summary{
+  cursor: pointer;
 }%
