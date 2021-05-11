@@ -173,6 +173,6 @@ a.btn--orange:hover {
 }
 
 /* details */
-/* details {
-  margin: 5% 0 5%;
-}% */
+details summary:hover{
+  color: bule;
+}%
