@@ -167,7 +167,7 @@ a.btn--orange:hover {
 .iframe-wrap {
   position: relative;
   width: 100%;
-  padding: calc(480 / 854 * 100%) 0 0; /* 高さと横幅の数字には単位は入れません。 */
+  padding: calc(アイフレームの高さ / アイフレームの横幅 * 100%) 0 0;
 }
 
 .iframe-wrap iframe {
@@ -176,6 +176,8 @@ a.btn--orange:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
 
 
 /* box の囲い */
